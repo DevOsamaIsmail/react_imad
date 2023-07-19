@@ -1,0 +1,9 @@
+.feature {
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+
+.feature .description {
+  margin-right: 10px;
+}

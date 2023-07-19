@@ -1,0 +1,38 @@
+.homeScholarships{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.buttons{
+  flex :1;
+  background-color: #fffff0;
+  height: "100%";
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.scholarships {
+  flex: 4;
+  background-color: #fffff0;
+  height: "100%";
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  border-color: #aba9a9;
+}
+
+.button.selected {
+  border-color: #000;
+}

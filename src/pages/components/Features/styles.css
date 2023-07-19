@@ -1,0 +1,14 @@
+.features {
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+  text-align: right;
+}
+
+.features .left-side {
+  margin-right: 100px;
+}
+
+.features .right-side p {
+  margin-top: 10px;
+}

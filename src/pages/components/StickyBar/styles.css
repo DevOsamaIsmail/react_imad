@@ -1,0 +1,29 @@
+.sticky-bar {
+  position: fixed;
+  width: 100%;
+  right: 0;
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 52px;
+  background-color: #062135;
+  margin-bottom: auto;
+  color: #ffffff;
+  align-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.sticky-bar .nav-list {
+  display: flex;
+  list-style: none;
+}
+
+.sticky-bar .nav-list li {
+  margin: 0 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
