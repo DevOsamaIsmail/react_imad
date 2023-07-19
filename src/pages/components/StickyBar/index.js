@@ -9,7 +9,7 @@ const StickyNavbar = () => {
       <div>
         <ul className="nav-list">
         <li>
-          <Dropdown title="اللغة">
+          <Dropdown title="اللغة"><RiGlobalLine />
           <ul>
             <li>
               <span onClick={()=>{localStorage.setItem("lan","ar");window.location.reload()}}>العربية</span> <RiGlobalLine />

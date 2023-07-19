@@ -8,14 +8,14 @@ const StickyNavbar = () => {
     <nav className="sticky-bar">
       <div>
         <ul className="nav-list">
-          <li>
-          <Dropdown title="Language">
+          <li><RiGlobalLine/>
+          <Dropdown title="Language"> 
           <ul>
             <li>
-              <span onClick={()=>{localStorage.setItem("lan","ar");window.location.reload()}}>Arabic</span> <RiGlobalLine />
+              <span onClick={()=>{localStorage.setItem("lan","ar");window.location.reload()}}>Arabic</span> 
             </li>
             <li>
-              <span onClick={()=>{localStorage.setItem("lan","en");window.location.reload()}}>English</span> <RiGlobalLine />
+              <span onClick={()=>{localStorage.setItem("lan","en");window.location.reload()}}>English</span> 
             </li>          </ul>
         </Dropdown>          </li>
           <li>jobs</li>

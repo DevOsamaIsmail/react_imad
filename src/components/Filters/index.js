@@ -43,8 +43,11 @@ const Filters = ({ row }) => {
           />
         </label>
       </div>
+      <br></br>      <br></br>
+      <br></br>
+
       <button className="py-2 px-5 bg-black text-white h-fit" 
-      style={{width: "16px"}}
+      style={{paddingLeft: "118px",     marginRight: "12px"}}
       >فلترة</button>
     </div>
   );

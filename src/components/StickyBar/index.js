@@ -7,14 +7,15 @@ const StickyNavbar = () => {
     <nav className="sticky-bar">
       <div>
         <ul className="nav-list">
-        <li>
+        <li><RiGlobalLine />
           <Dropdown title="اللغة">
           <ul>
             <li>
-              <span onClick={()=>{localStorage.setItem("lan","ar");window.location.reload()}}>العربية</span> <RiGlobalLine />
+              <span onClick={()=>{localStorage.setItem("lan","ar");
+              window.location.reload()}}>العربية</span> 
             </li>
             <li>
-              <span onClick={()=>{localStorage.setItem("lan","en");window.location.reload()}}>الانجليزية</span> <RiGlobalLine />
+              <span onClick={()=>{localStorage.setItem("lan","en");window.location.reload()}}>الانجليزية</span>
             </li>          </ul>
         </Dropdown>          </li>
           <li>الوظائف</li>
